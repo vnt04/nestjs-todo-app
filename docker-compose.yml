@@ -9,4 +9,5 @@ services:
       - '3000:3000'
     volumes:
       - .:/NEST-TODO-APP
+      - /NEST-TODO-APP/node_modules
     command: npm run start:dev
